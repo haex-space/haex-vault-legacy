@@ -78,7 +78,7 @@
     "swiper": "^14.2.0",
     "tailwindcss": "^4.3.3",
     "tldts": "^7.4.11",
-    "vue": "^3.5.42",
+    "vue": "^3.5.43",
     "vue-advanced-cropper": "^2.8.9"
   },
   "devDependencies": {
@@ -96,7 +96,7 @@
     "@vitejs/plugin-vue": "6.0.8",
     "@vitest/ui": "^4.1.11",
     "@vue-dnd-kit/core": "2.4.7",
-    "@vue/compiler-sfc": "^3.5.42",
+    "@vue/compiler-sfc": "^3.5.43",
     "drizzle-kit": "^0.31.10",
     "eslint": "^10.10.0",
     "globals": "^17.12.0",
