@@ -1,3 +1,5 @@
+> **Archived: haex-vault 2.x (Legacy).** This repository moved from `haex-space/haex-vault` to `haex-space/haex-vault-legacy` and is read-only. The successor, HaexVault 3.x, lives at [github.com/haex-space/haex-vault](https://github.com/haex-space/haex-vault); it does not migrate vaults automatically (import the old vault file by hand).
+
 # Haex Vault
 
 **Your data. Your devices. Your rules.**
@@ -403,7 +405,7 @@ graph TB
 
 ### Downloads
 
-Pre-built binaries: [Releases](https://github.com/haex-space/haex-vault/releases)
+Pre-built binaries: [Releases](https://github.com/haex-space/haex-vault-legacy/releases)
 
 ### Building from source
 
@@ -424,8 +426,8 @@ sudo dnf install webkit2gtk4.1-devel gtk3-devel libappindicator-gtk3 librsvg2-de
 
 **Development:**
 ```bash
-git clone https://github.com/haex-space/haex-vault.git
-cd haex-vault
+git clone https://github.com/haex-space/haex-vault-legacy.git
+cd haex-vault-legacy
 pnpm install
 pnpm tauri dev
 ```
@@ -466,7 +468,7 @@ graph LR
 
 | Project | Description |
 |---------|-------------|
-| [**Haex Vault**](https://github.com/haex-space/haex-vault) | The runtime (this repo) |
+| [**Haex Vault (Legacy)**](https://github.com/haex-space/haex-vault-legacy) | The runtime of haex-vault 2.x (this repo, archived) |
 | [**Haextensions**](https://github.com/haex-space/haextension) | Official apps (HaexPass, HaexNotes, HaexFiles, ...) |
 | [**Haex Vault SDK**](https://github.com/haex-space/haex-vault-sdk) | SDK for Haextension developers |
 | [**Haex Sync Server**](https://github.com/haex-space/haex-sync-server) | Self-hostable sync server (Hono + Drizzle + PostgreSQL) |
